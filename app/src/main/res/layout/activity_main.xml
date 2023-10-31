@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2CCB5"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Green \nCalculator"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#14550D"
+            android:gravity="center"
+            android:layout_marginTop="135dp"/>
+        
+        <EditText
+            android:id="@+id/edt_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:gravity="center"
+            android:textColorHint="#367005"
+            android:textColor="#367005"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="55dp"/>
+        
+        <EditText
+            android:id="@+id/edt_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:textColorHint="#367005"
+            android:textColor="#367005"
+            android:gravity="center"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="235dp"/>
+
+        <TextView
+            android:id="@+id/tv_value"
+            android:text="0"
+            android:textColor="#367005"
+            android:layout_marginLeft="175dp"
+            android:layout_marginRight="175dp"
+            android:layout_marginTop="330dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addiction"
+            android:textColor="#104C05"
+            android:textSize="16sp"
+            android:backgroundTint="#34AC27"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="57dp"/>
+
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtraction"
+            android:textColor="#104C05"
+            android:textSize="16sp"
+            android:backgroundTint="#34AC27"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="230dp"/>
+
+        <Button
+            android:id="@+id/btn_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplication"
+            android:textColor="#104C05"
+            android:textSize="16sp"
+            android:backgroundTint="#34AC27"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="45dp"/>
+
+        <Button
+            android:id="@+id/btn_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division"
+            android:textColor="#104C05"
+            android:textSize="16sp"
+            android:backgroundTint="#34AC27"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="245dp"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
